@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(to right, #f9d423, #ff4e50);
+    margin: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#row1 {
+    margin-top: 30px;
+    display: block;
+}
+
+#row2 {
+    display: block;
+}
+
+#row3 {
+    display: block;
+}
+
+button {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: burlywood;
+    width: 100px;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+#player {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-top: 150px;
+    margin-left: 200px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff4e50;
+}
+
+
+#content {
+    display: flex;
+}
+
+#bu {
+    display: block;
+    margin-left: 70px;
+    margin-right: auto;
+}
+
+
+#start {
+    background: rgb(193, 102, 45);
+    width: 320px;
+    height: 100px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 2px brown;
+}
+
+#msg {
+    text-shadow: 5px 2px 2px brown;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#record_box {
+    margin-top: 35px;
+    margin-right: 300px;
+    margin-left: 0px;
+    display: block;
+    width: 200px;
+    max-height: 460px;
+    color: #f9d423;
+}
+
+ul {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul li {
+    font-size: 20px;
+    margin-top: 5px;
+    list-style: none;
+}
