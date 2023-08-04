@@ -80,14 +80,16 @@ function check_state() {
             who_win = 2
         }
     }
+
     let tie = true
+
     for (let i = 0; i < 9; i++) {
         if (record[i] === 0) {
             tie = false
             break
         }
     }
-    if (tie) {
+    if (tie && who_win === 0) {
         game_state = false
         record_box.innerHTML += "<li>Tie</li>"
         msg.textContent = "Tie!!"
